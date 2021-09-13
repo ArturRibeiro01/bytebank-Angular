@@ -1,5 +1,8 @@
-
-<h1>Bem vindo ao {{title}}</h1>
-<app-nova-transferencia></app-nova-transferencia>
-<app-extrato></app-extrato>
+<header>
+  <a routerLink="extrato">Extrato Bytebank</a>
+  <a routerLink="nova-transferencia" routerLinkActive="ativo">Fazer nova transferência</a>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
 
